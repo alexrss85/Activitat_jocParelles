@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/styleJoc.css">
+    <link rel="stylesheet" href="./style/styleJoc.css">
     <title>Parelles</title>
 </head>
 <body>
 
     
-        <button>Mostra les instruccions</button>
+        <div id="stats">
+            <button id="botoInstruccions">Mostra les instruccions</button>
    
-        <h1>La puntuació més alta</h1>
-
-        <h3>JUGADIR: jugador 3 - PUNTS: 91 punts</h3>
-
-        <h1>Jugador 1</h1>
-
-        <h3>Punts: 0</h3>
+            <h1>La puntuació més alta:</h1>
+    
+            <h3>JUGADOR: <span id="millorJugador"> Pendent de Partida</span> - PUNTS: <span id="millorPuntuacio">0</span></h3>
+    
+            <h1 id="nomJugador">Jugador 1</h1>
+    
+            <h3>Punts: <spanv id="puntuacio">0</spanv></h3>
+        </div>
 
         <div id="cartes"></div>
 
 
 
 
-    <script src="/script/code.js"></script>
+    <script src="./script/joc.js"></script>
 </body>
 </html>
